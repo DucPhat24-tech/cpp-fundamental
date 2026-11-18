@@ -18,7 +18,7 @@ int main()
         for (int i=0;i<n;i++) cin>>a[i];
         int res=0;
         for (int i=0;i<n;i++){
-            res=ucln,a[i]);
+            res=ucln(res,a[i]);
         }
         if (res==1){
             cout<<0<<endl;continue;
